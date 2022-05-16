@@ -1,6 +1,6 @@
 const app = require("./app");
 const mongoose = require("mongoose");
-const PORT = 8082;
+const PORT = process.env.PORT || 8082;
 const MONGODB =
   "mongodb+srv://feedback:Feedback@feedbacks.9mwvu.mongodb.net/feedback?retryWrites=true&w=majority";
 
